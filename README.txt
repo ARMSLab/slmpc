@@ -1,1 +1,1 @@
-Open Tutorial_nonlinear.m file.
+To start - open tutorial_nonlinear.m file.
