@@ -16,7 +16,7 @@ function [Ac,Bc,Kc] = linearize_model(x,dx,u,sys)
     %This two matrices, as it was mentioned, Jacobians of f(x,u) about its
     %parameters
     Bc = [0;1];
-    Ac = [0 1; (-g/l)*cos(x(2)) -b];
+    Ac = [0 1; (-g/l)*cos(x(1)) -b];
     
     %Kc is offcet created by linear approximation of the system and initial
     %parameters. 
